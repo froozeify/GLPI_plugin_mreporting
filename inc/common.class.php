@@ -50,7 +50,7 @@ class PluginMreportingCommon extends CommonDBTM
      */
     public static function getTypeName($nb = 0)
     {
-        return __s('More Reporting', 'mreporting');
+        return __s('More Reporting test', 'mreporting');
     }
 
     public static function canCreate(): bool
