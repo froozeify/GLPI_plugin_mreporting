@@ -8,6 +8,6 @@ on:
 jobs:
   push-on-transifex:
     name: "Push locales sources"
-    uses: "glpi-project/plugin-translation-workflows/.github/workflows/transifex-push-sources.yml@v1"
+    uses: "froozeify/GLPI_plugin-translation-workflows/.github/workflows/transifex-push-sources.yml@switch-to-core-tools"
     secrets:
       transifex-token: "${{ secrets.TRANSIFEX_TOKEN }}"

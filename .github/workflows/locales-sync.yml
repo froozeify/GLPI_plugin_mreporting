@@ -8,7 +8,7 @@ on:
 jobs:
   sync-with-transifex:
     name: "Sync with transifex"
-    uses: "glpi-project/plugin-translation-workflows/.github/workflows/transifex-sync.yml@v1"
+    uses: "froozeify/GLPI_plugin-translation-workflows/.github/workflows/transifex-sync.yml@switch-to-core-tools"
     secrets:
       github-token: "${{ secrets.LOCALES_SYNC_TOKEN }}"
       transifex-token: "${{ secrets.TRANSIFEX_TOKEN }}"
