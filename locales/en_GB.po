@@ -1,24 +1,24 @@
 # English translations for PACKAGE package.
-# Copyright (C) 2025 THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2025.
+# Automatically generated, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-19 01:48+0000\n"
-"PO-Revision-Date: 2025-12-19 01:48+0000\n"
+"POT-Creation-Date: 2026-01-27 15:18+0000\n"
+"PO-Revision-Date: 2026-01-27 15:18+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: setup.php:191 inc/preference.class.php:198 inc/profile.class.php:71
-#: inc/common.class.php:53 inc/notification.class.php:47
+#: inc/notification.class.php:47
 #: inc/notificationtargetnotification.class.php:37 front/preference.form.php:43
 #: front/config.form.php:52 front/config.php:41 front/dashboard.form.php:55
 #: front/dashboard.form.php:60 front/graph.php:38 front/central.php:35
@@ -94,6 +94,10 @@ msgstr "Please, select a model in your preferences"
 #: inc/profile.class.php:381
 msgid "Rights management"
 msgstr "Rights management"
+
+#: inc/common.class.php:53
+msgid "More Reporting test"
+msgstr "More Reporting test"
 
 #: inc/common.class.php:68 inc/common.class.php:69 inc/common.class.php:85
 #: inc/dashboard.class.php:39 ajax/homepage_link.php:38
