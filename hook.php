@@ -47,7 +47,7 @@ function plugin_mreporting_install()
     $default_collation = DBConnection::getDefaultCollation();
     $default_key_sign  = DBConnection::getDefaultPrimaryKeySignOption();
 
-    //create profiles table
+    //create profiles table, triggering translation workflow
     $DB->doQuery("CREATE TABLE IF NOT EXISTS `glpi_plugin_mreporting_profiles` (
       `id` INT {$default_key_sign} NOT NULL AUTO_INCREMENT,
       `profiles_id` VARCHAR(45) NOT NULL,
